@@ -1,0 +1,12 @@
+//Data insertion in department table
+
+insert into department values (1,'CSD');
+insert into department values (2,'CSE');
+insert into department values (3,'DS');
+insert into department values (4,'AIML');
+insert into department values (5,'CS');
+insert into department values (5,'ECE');
+
+//after insertion to check the table is done
+
+mysql>select * from department;
