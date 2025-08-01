@@ -1,0 +1,54 @@
+//Day 1 of learning DBMS
+what is data?
+Data is a collection of raw , unorganized facts and details like text, observation, figures etc.
+Data does not carry any specific purpose and no significance by itself.
+
+Types of data
+i) Quantitative:- numerical form
+                         like weight,volume,cost
+ii) Quantative:- Descriptive
+                        like name,gender,hair color
+
+What is information?
+Information is processed,organized & structured data.
+It provides context of the data & enables decision making.
+It makes sense to us.
+
+Data vs Information
+Data is a collection of facts while information puts those facts into context.
+Data is unorganized while information is organized.
+Data does not depends on information however info depends on data.
+Data typically comes in the form of graphs,numbers,figures or statistics. But information is typically presented by words,language,thought.
+
+What is Database?
+A database is an electronic place/system where data is stored in a way that it can be easily accessed,managed and updated.
+To make real use data, we need database management system.
+
+What is DBMS?
+A database management system is a collection of interrelated data and a set of programs to access the data.
+It is used to perform different operation like add,access,updating&deletion of the data.
+
+
+                                             Database--->DBMS----->API-------->user
+
+Drawbacks of file system
+
+Data redundancy & inconsistency
+Difficulty in accessing data
+Data isolation
+Integrity problem
+Atomicity Problem
+Concurrent-access anomalies
+Security problem
+                     
+
+
+
+
+
+
+
+
+
+
+
