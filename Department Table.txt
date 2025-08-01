@@ -1,0 +1,14 @@
+//Create a department table and display.
+
+create table Department(Dno int (3) primary key, Dname varchar (10));
+
+#table is created
+
+describe table;
++-------+-------------+------+-----+---------+-------+
+| Field | Type        | Null | Key | Default | Extra |
++-------+-------------+------+-----+---------+-------+
+| Dno   | int         | NO   | PRI | NULL    |       |
+| Dname | varchar(10) | YES  |     | NULL    |       |
++-------+-------------+------+-----+---------+-------+
+#output
