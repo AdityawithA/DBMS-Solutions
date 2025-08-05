@@ -1,0 +1,14 @@
+INSERT INTO EMP (Eno, Ename, City, Salary, JoinDate, Dno) VALUES
+('E1', 'ashim', 'kolkata', 18000, '2014-01-01', 1),
+('E2', 'kamal', 'mumbai', 10000, '2014-06-01', 2),
+('E3', 'tamal', 'chennai', 7000,  '2015-01-01', 1),
+('E4', 'asha',  'kolkata', 8000,  '2015-06-01', 2),
+('E5', 'timir', 'delhi',   7000,  '2016-01-01', 1);
+
+| Eno | Ename | City    | Salary | JoinDate   | Dno |
+| --- | ----- | ------- | ------ | ---------- | --- |
+| E1  | ashim | kolkata | 18000  | 2014-01-01 | 1   |
+| E2  | kamal | mumbai  | 10000  | 2014-06-01 | 2   |
+| E3  | tamal | chennai | 7000   | 2015-01-01 | 1   |
+| E4  | asha  | kolkata | 8000   | 2015-06-01 | 2   |
+| E5  | timir | delhi   | 7000   | 2016-01-01 | 1   |
