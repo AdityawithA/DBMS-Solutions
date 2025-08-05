@@ -1,0 +1,8 @@
+//Employee database table
+
+create table emp (Eno varchar (5) primary key check (Eno like 'E%'), Ename varchar (10) not null, City char (10) check (city in)'delhi','kolkata','mumbai','chennai')),Salary int, Joindate date, Dno int (3), foreign key emp(Dno) references department (Dno));
+
+#table is created
+#to check it is created
+
+describe emp;
