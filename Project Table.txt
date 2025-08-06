@@ -1,0 +1,13 @@
+// Create project table.
+
+create table PROJECT(Pno varchar(5) primary key check(Pno like 'p%'), Eno varchar(5), foreign key PROJECT(Eno) references EMP(Eno));
+
+#table is created to check
+
+describe PROJECT;
++-------+------------+------+-----+---------+-------+
+| Field | Type       | Null | Key | Default | Extra |
++-------+------------+------+-----+---------+-------+
+| Pno   | varchar(5) | NO   | PRI | NULL    |       |
+| Eno   | varchar(5) | YES  | MUL | NULL    |       |
++-------+------------+------+-----+---------+-------+
