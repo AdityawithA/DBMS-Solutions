@@ -1,0 +1,16 @@
+//Display the structure of table emlpoye.
+
+#To display the structure use this command
+
+Describe Emp;
+
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| Eno      | varchar(5)  | NO   | PRI | NULL    |       |
+| Ename    | varchar(15) | YES  |     | NULL    |       |
+| City     | char(10)    | YES  |     | NULL    |       |
+| Salary   | int         | YES  |     | NULL    |       |
+| JoinDate | date        | YES  |     | NULL    |       |
+| Dno      | int         | YES  | MUL | NULL    |       |
++----------+-------------+------+-----+---------+-------+
