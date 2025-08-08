@@ -1,0 +1,8 @@
+//Add a new column mobile_no which is unique of table emp.
+
+mysql> alter table emp
+-> add column mobile_no int (10) unique;
+
+#To check that column is added
+
+mysql> describe emp;
