@@ -1,0 +1,9 @@
+//Add a new column mgrID of data size varchar 10 and mgrID values should references from Eno of table emp
+
+mysql> table emp
+-> add column mobile_no int(10) unique;
+
+mysql> alter table emp modify mobile_no bigint;
+MySQL> alter table emp
+-> add column mgrID varchar(10) unique; 
+
