@@ -1,0 +1,8 @@
+//add the constraints for mobile number which is exactly of 10 digit.
+
+mysql> alter table emp
+-> add constraints mobile_no check(char_length(mobile_no)=10);
+
+#To check it is added
+
+mysql> desc emp;
