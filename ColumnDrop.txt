@@ -1,0 +1,7 @@
+//drop the column mobile_no from table emp.
+
+mysql> alter table emp drop column mobile_no;
+
+#To see changes
+
+mysql> desc emp;
