@@ -1,0 +1,10 @@
+// Display name of employees having 'a' as the second letter in their name.
+
+mysql> select Ename from emp where Ename like '_a%';
+
++-------+
+| Ename |
++-------+
+| kamal |
+| tamal |
++-------+
