@@ -1,0 +1,9 @@
+// Display list of employees who have name exactly 4 characters.
+
+mysql> select * from emp where char_length(ename)=4;
+
++-----+-------+---------+--------+------------+------+------------+-------+
+| Eno | Ename | City    | Salary | JoinDate   | Dno  | mobile_no  | mgrid |
++-----+-------+---------+--------+------------+------+------------+-------+
+| E4  | asha  | kolkata |   8000 | 2015-06-01 |    2 | 4565789760 | E4    |
++-----+-------+---------+--------+------------+------+------------+-------+
