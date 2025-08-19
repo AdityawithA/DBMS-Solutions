@@ -1,0 +1,21 @@
+// update the table emp with following mgrID values.
+
+mysql> update emp set mgrID = 'E1', mobile_no 9876543211 where Eno = 'E1';
+mysql> update emp set mgrID = 'E2', mobile_no 9876543212 where Eno = 'E2';
+mysql> update emp set mgrID = 'E3', mobile_no 9876543213 where Eno = 'E3';
+mysql> update emp set mgrID = 'E4', mobile_no 9876543214 where Eno = 'E4';
+mysql> update emp set mgrID = 'E5', mobile_no 9876543215 where Eno = 'E5';
+
+#To check upadated values
+
+mysql> select * from emp;
+
++-----+-------+---------+--------+------------+------+------------+-------+
+| Eno | Ename | City    | Salary | JoinDate   | Dno  | mobile_no  | mgrid |
++-----+-------+---------+--------+------------+------+------------+-------+
+| E1  | ashim | kolkata |  18000 | 2014-01-01 |    1 | 9876543214 | E1    |
+| E2  | kamal | mumbai  |  10000 | 2014-06-01 |    2 | 9876543211 | E2    |
+| E3  | tamal | chennai |   7000 | 2015-01-01 |    1 | 4579743211 | E3    |
+| E4  | asha  | kolkata |   8000 | 2015-06-01 |    2 | 4565789760 | E4    |
+| E5  | timir | delhi   |   7000 | 2016-01-01 |    1 | 4567823190 | E5    |
++-----+-------+---------+--------+------------+------+------------+-------+
