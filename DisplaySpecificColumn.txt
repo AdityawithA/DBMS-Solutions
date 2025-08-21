@@ -1,0 +1,13 @@
+// display name and salary of employees in department no 1 & 2.
+
+mysql> select Ename,Salary from emp where Dno in (1,2);
+
++-------+--------+
+| Ename | Salary |
++-------+--------+
+| ashim |  18000 |
+| tamal |   7000 |
+| timir |   7000 |
+| kamal |  10000 |
+| asha  |   8000 |
++-------+--------+
