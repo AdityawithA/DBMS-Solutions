@@ -1,0 +1,9 @@
+# Find the average salary.
+
+mysql> select avg(salary) from emp;
++-------------+
+| avg(salary) |
++-------------+
+| 10000.0000  |
++-------------+
+1 row in set (0.18 sec)
