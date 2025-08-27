@@ -1,0 +1,8 @@
+//Drop all the constraints of mobile_no.
+
+mysql> alter table emp drop check mobile_no;
+mysql> alter table emp drop index mobile_no;
+
+#To check changes
+
+mysql> desc emp;
