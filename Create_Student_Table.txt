@@ -1,0 +1,26 @@
+// Create Student table.
+
+Table Name: STUDENT
+
++---------+---------+------+-------------+
+| Column  | Data    | Size | Constraints |
+| Name    | Type    |      |             |
++---------+---------+------+-------------+
+| Rollno  | Number  | 3    | Primary key |
+| Sname   | Varchar | 10   |             |
++---------+---------+------+-------------+
+
+mysql> create table STUDENT (
+    -> RollNo INT(3) PRIMARY KEY,
+    -> Sname VARCHAR(10)
+    -> );
+Query OK, 0 rows affected, 1 warning (0.03 sec)
+
+mysql> DESC STUDENT;
++--------+-----------+------+-----+---------+-------+
+| Field  | Type      | Null | Key | Default | Extra |
++--------+-----------+------+-----+---------+-------+
+| RollNo | int       | NO   | PRI | NULL    |       |
+| Sname  | varchar(10)| YES |     | NULL    |       |
++--------+-----------+------+-----+---------+-------+
+2 rows in set (0.00 sec)
