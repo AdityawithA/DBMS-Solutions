@@ -1,0 +1,12 @@
+# Display employee names and department nos of all employees who belong to either ‘chennai’, or ‘kolkata’, or ‘mumbai’.
+
+mysql> select ename, dno from emp where city in ('chennai','kolkata','mumbai');
++-------+-----+
+| ename | dno |
++-------+-----+
+| ashim |   1 |
+| kamal |   2 |
+| tamal |   1 |
+| asha  |   2 |
++-------+-----+
+4 rows in set (0.00 sec)
