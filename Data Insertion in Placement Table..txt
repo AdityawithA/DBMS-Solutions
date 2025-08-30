@@ -1,0 +1,32 @@
+//Data Insertion in Placement Table.
+
++--------+-------------+------------+
+| Rollno | CompanyName | CampusDate |
++--------+-------------+------------+
+| 1      | TCS         | 2019-11-10 |
+| 1      | CTS         | 2019-12-20 |
+| 2      | TCS         | 2019-11-10 |
+| 3      | CTS         | 2019-12-20 |
+| 3      | GOOGLE      | 2019-12-26 |
++--------+-------------+------------+
+
+
+mysql> INSERT INTO PLACEMENT (Rollno, CompanyName, CampusDate) VALUES
+    -> (1, 'TCS', '2019-11-10'),
+    -> (1, 'CTS', '2019-12-20'),
+    -> (2, 'TCS', '2019-11-10'),
+    -> (3, 'CTS', '2019-12-20'),
+    -> (3, 'GOOGLE', '2019-12-26');
+Query OK, 5 rows affected (0.02 sec)
+
+mysql> SELECT * FROM PLACEMENT;
++--------+-------------+------------+
+| Rollno | CompanyName | CampusDate |
++--------+-------------+------------+
+| 1      | TCS         | 2019-11-10 |
+| 1      | CTS         | 2019-12-20 |
+| 2      | TCS         | 2019-11-10 |
+| 3      | CTS         | 2019-12-20 |
+| 3      | GOOGLE      | 2019-12-26 |
++--------+-------------+------------+
+5 rows in set (0.00 sec)
