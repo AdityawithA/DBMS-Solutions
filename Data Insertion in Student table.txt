@@ -1,0 +1,26 @@
+// Data Insertion in Student table 
+
++--------+--------+
+| Rollno | Sname  |
++--------+--------+
+| 1      | Ram    |
+| 2      | Shyam  |
+| 3      | Rahim  |
++--------+--------+
+
+
+mysql> INSERT INTO STUDENT (Rollno, Sname) VALUES
+    -> (1, 'Ram'),
+    -> (2, 'Shyam'),
+    -> (3, 'Rahim');
+Query OK, 3 rows affected (0.01 sec)
+
+mysql> SELECT * FROM STUDENT;
++--------+--------+
+| Rollno | Sname  |
++--------+--------+
+| 1      | Ram    |
+| 2      | Shyam  |
+| 3      | Rahim  |
++--------+--------+
+3 rows in set (0.00 sec)
