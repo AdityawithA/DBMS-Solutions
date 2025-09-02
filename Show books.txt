@@ -1,0 +1,11 @@
+Show books where the author's name contains 'Lee'.
+
+mysql> select *
+    -> from books
+    -> where author like '%lee%';
++---------+-----------------------+------------+----------------+-------+
+| book_id | title                 | author     | year_published | price |
++---------+-----------------------+------------+----------------+-------+
+|       3 | To Kill a Mockingbird | Harper Lee |           1960 | 12.50 |
++---------+-----------------------+------------+----------------+-------+
+1 row in set (0.00 sec)
