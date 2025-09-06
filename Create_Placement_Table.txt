@@ -1,0 +1,30 @@
+//Create placement table
+
+Table Name: PLACEMENT
+
++-------------+-----------+------+------------------------------+
+| Column Name | Data Type | Size | Constraints                  |
++-------------+-----------+------+------------------------------+
+| Rollno      | Number    | 3    | Foreign key reference STUDENT|
+| CompanyName | Varchar   | 10   |                              |
+| CampusDate  | Date      |      |                              |
++-------------+-----------+------+------------------------------+
+
+
+mysql> CREATE TABLE PLACEMENT (
+    -> RollNO INT(3),
+    -> CompanyName VARCHAR(10),
+    -> CampusDate DATE,
+    -> FOREIGN KEY (RollNo) REFERENCES STUDENT (RollNo)
+    -> );
+Query OK, 0 rows affected, 1 warning (0.04 sec)
+
+mysql> desc PLACEMENT;
++-------------+------------+------+-----+---------+-------+
+| Field       | Type       | Null | Key | Default | Extra |
++-------------+------------+------+-----+---------+-------+
+| RollNO      | int        | YES  | MUL | NULL    |       |
+| CompanyName | varchar(10)| YES  |     | NULL    |       |
+| CampusDate  | date       | YES  |     | NULL    |       |
++-------------+------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)

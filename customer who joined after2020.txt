@@ -1,0 +1,12 @@
+List customers who joined after 2020.
+
+mysql> select *
+    -> from customers
+    -> where year(join_date) > 2020;
++-------------+-------------+----------+------------+
+| customer_id | name        | city     | join_date  |
++-------------+-------------+----------+------------+
+|         103 | Carol White | Chicago  | 2021-11-05 |
+|         104 | David Brown | New York | 2022-01-15 |
++-------------+-------------+----------+------------+
+2 rows in set (0.00 sec)
