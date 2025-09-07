@@ -1,0 +1,12 @@
+# Display the list of all employees who were joined during 2015.
+
+mysql> select *
+    -> from emp
+    -> where year(joindate) = 2015;
++-----+-------+---------+-------+------------+-----+------------+-------+
+| Eno | Ename | City    | Salary| JoinDate   | Dno | mobile_no  | mgrid |
++-----+-------+---------+-------+------------+-----+------------+-------+
+| E3  | tamal | chennai |  7000 | 2015-01-01 |   1 | 4579743211 | E3    |
+| E4  | asha  | kolkata |  8000 | 2015-06-01 |   2 | 4565789760 | E4    |
++-----+-------+---------+-------+------------+-----+------------+-------+
+2 rows in set (0.00 sec)
