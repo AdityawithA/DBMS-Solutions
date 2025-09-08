@@ -1,0 +1,12 @@
+Find the most recent customer who joined.
+
+mysql> select *
+    -> from customers
+    -> order by join_date desc
+    -> limit 1;
++-------------+-------------+----------+------------+
+| customer_id | name        | city     | join_date  |
++-------------+-------------+----------+------------+
+|         104 | David Brown | New York | 2022-01-15 |
++-------------+-------------+----------+------------+
+1 row in set (0.00 sec)
