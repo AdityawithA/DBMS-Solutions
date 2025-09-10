@@ -1,0 +1,11 @@
+# Display employee name and salary of the employee with lowest salary
+
+mysql> select eno, ename, salary from emp 
+    -> where salary=(select min(salary) from emp);
++-----+-------+--------+
+| eno | ename | salary |
++-----+-------+--------+
+|  3  | tamal |   7000 |
+|  4  | timir |   7000 |
++-----+-------+--------+
+2 rows in set (0.00 sec)
