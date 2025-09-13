@@ -1,0 +1,15 @@
+# Display names of all employees in the alphabetic order.
+
+mysql> select Ename
+    -> from emp
+    -> order by ename asc;
++-------+
+| Ename |
++-------+
+| asha  |
+| ashim |
+| kamal |
+| tamal |
+| timir |
++-------+
+5 rows in set (0.03 sec)
