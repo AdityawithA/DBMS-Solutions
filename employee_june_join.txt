@@ -1,0 +1,12 @@
+#Display employee names and department no for those who joined in the month of June.
+
+mysql> select Ename, Dno
+    -> from emp
+    -> where month(joindate) = 6;
++-------+-----+
+| Ename | Dno |
++-------+-----+
+| kamal |   2 |
+| asha  |   2 |
++-------+-----+
+2 rows in set (0.04 sec)
