@@ -1,0 +1,11 @@
+# List of all employees who have salary between 7000 and 8000.
+
+mysql> select * from emp where salary between 7000 and 8000;
++-----+-------+---------+--------+------------+-----+------------+-------+
+| Eno | Ename | City    | Salary | JoinDate   | Dno | mobile_no  | mgrid |
++-----+-------+---------+--------+------------+-----+------------+-------+
+| E3  | tamal | chennai |   7000 | 2015-01-01 |   1 | 4579743211 | E3    |
+| E4  | asha  | kolkata |   8000 | 2015-06-01 |   2 | 4565789760 | E4    |
+| E5  | timir | delhi   |   7000 | 2016-01-01 |   1 | 4567823190 | E5    |
++-----+-------+---------+--------+------------+-----+------------+-------+
+3 rows in set (0.00 sec)
