@@ -1,0 +1,15 @@
+# List the name and the salary of all employees sorted by salary descending order.
+
+mysql> select ename, salary
+    -> from emp
+    -> order by salary desc;
++-------+--------+
+| ename | salary |
++-------+--------+
+| ashim |  18000 |
+| kamal |  10000 |
+| asha  |   8000 |
+| tamal |   7000 |
+| timir |   7000 |
++-------+--------+
+5 rows in set (0.00 sec)
