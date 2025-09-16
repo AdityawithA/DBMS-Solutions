@@ -1,0 +1,9 @@
+# Find the difference between highest and lowest salary of an employee.
+
+mysql> select (max(salary) - min(salary)) from emp;
++-------------------------+
+| (max(salary) - min(salary)) |
++-------------------------+
+|                   11000 |
++-------------------------+
+1 row in set (0.04 sec)
