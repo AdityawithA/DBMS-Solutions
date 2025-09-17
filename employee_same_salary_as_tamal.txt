@@ -1,0 +1,11 @@
+# List only the names of all employees who have the same salary as that of ‘tamal’.
+
+mysql> select ename from emp 
+    -> where salary=(select salary from emp where ename='tamal') 
+    -> and ename<>'tamal';
++-------+
+| ename |
++-------+
+| timir |
++-------+
+1 row in set (0.00 sec)
