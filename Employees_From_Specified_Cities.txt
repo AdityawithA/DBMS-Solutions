@@ -1,0 +1,14 @@
+# Display employee names and department names of all employees who belong to either ‘chennai’, or ‘kolkata’, or ‘mumbai’.
+
+mysql> select e.ename, d.dname 
+    -> from emp e join dept d on e.dno = d.dno 
+    -> where e.city in ('chennai','mumbai','kolkata');
++-------+-----------+
+| ename | dname     |
++-------+-----------+
+| ashim | research  |
+| kamal | finance   |
+| tamal | research  |
+| asha  | finance   |
++-------+-----------+
+4 rows in set (0.08 sec)
