@@ -1,0 +1,14 @@
+# Display name and salary for all employees who are engaged with at least one project.
+
+mysql> select e.ename, e.salary, count(p.pno) 
+    -> from emp e join project p on e.eno = p.eno 
+    -> group by e.eno, e.ename, e.salary;
++-------+--------+--------------+
+| ename | salary | count(p.pno) |
++-------+--------+--------------+
+| ashim |  18000 |            1 |
+| kamal |  10000 |            1 |
+| tamal |   7000 |            1 |
+| asha  |   8000 |            1 |
++-------+--------+--------------+
+4 rows in set (0.00 sec)
