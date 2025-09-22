@@ -7,3 +7,4 @@ mysql> alter table emp
 
 
 mysql> describe emp;
+
