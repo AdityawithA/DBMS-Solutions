@@ -1,0 +1,16 @@
+# Display the names of all employees who engaged in two or more projects.
+
+mysql> select e.ename 
+       from emp e 
+       join project ep on e.eno = ep.eno 
+       group by e.ename 
+       having count(ep.pno) >= 1;
++--------+
+| ename  |
++--------+
+| ashim  |
+| kamal  |
+| tamal  |
+| asha   |
++--------+
+4 rows in set (0.00 sec)
