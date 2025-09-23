@@ -1,0 +1,10 @@
+Find the average price of books.
+
+mysql> SELECT AVG(price) AS avg_price
+    -> from books;
++-----------+
+| avg_price |
++-----------+
+| 13.496000 |
++-----------+
+1 row in set (0.02 sec)
