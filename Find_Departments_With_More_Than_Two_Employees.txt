@@ -1,0 +1,10 @@
+# Find all department numbers that have more than two employees.
+
+mysql> select dno from emp group by dno having count(eno) > 2;
+
++-----+
+| dno |
++-----+
+|   1 |
++-----+
+1 row in set (0.00 sec)
