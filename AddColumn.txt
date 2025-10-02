@@ -5,6 +5,4 @@ mysql> alter table emp
 
 #To check that column is added
 
-
 mysql> describe emp;
-
