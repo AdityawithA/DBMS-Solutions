@@ -1,4 +1,4 @@
-// Create books table
+// Create books table.
 
 CREATE TABLE Books (
     book_id INT PRIMARY KEY,
@@ -6,4 +6,5 @@ CREATE TABLE Books (
     author VARCHAR(255) NOT NULL,
     year_published INT,
     price DECIMAL(10, 2)
+
 );
