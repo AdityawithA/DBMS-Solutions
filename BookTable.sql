@@ -8,3 +8,4 @@ CREATE TABLE Books (
     price DECIMAL(10, 2)
 
 );
+
