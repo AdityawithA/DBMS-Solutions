@@ -10,3 +10,4 @@ insert into department values (5,'ECE');
 //after insertion to check the table is done
 
 mysql>select * from department;
+
